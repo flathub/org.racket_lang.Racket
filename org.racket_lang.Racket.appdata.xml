@@ -22,13 +22,14 @@
   </description>
   <releases>
     <release version="v8.7" date="2022-12-26">
-      <description>
-        <p>The latest stable release.</p>
-      </description>
+      <url>https://blog.racket-lang.org/2022/11/racket-v8-7.html</url>
     </release>
   </releases>
   <screenshots>
     <screenshot type="default">
+      <image>https://user-images.githubusercontent.com/512906/210395542-75492349-7e1e-4698-9305-35883c1f801f.png</image>
+    </screenshot> 
+    <screenshot>
       <image>https://user-images.githubusercontent.com/512906/209567825-dc6ef996-965f-4e9f-a25a-aa3773f7c98a.png</image>
     </screenshot>
   </screenshots>
