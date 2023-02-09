@@ -21,9 +21,8 @@
     </p>
   </description>
   <releases>
-    <release version="v8.7" date="2022-12-26">
-      <url>https://blog.racket-lang.org/2022/11/racket-v8-7.html</url>
-    </release>
+    <release version="v8.8" date="2023-02-09" />
+    <release version="v8.7" date="2022-12-26" />
   </releases>
   <screenshots>
     <screenshot type="default">
