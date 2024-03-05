@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<application>
-  <id type="desktop">org.racket_lang.Racket</id>
+<component type="desktop-application">
+  <id>org.racket_lang.Racket</id>
   <name>Racket</name>
   <summary>The Language-Oriented Programming Language</summary>
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>MIT</project_license>
+  <developer id="org.racket-lang">
+    <name>The Racket Community</name>
+  </developer>
+  <launchable type="desktop-id">org.racket_lang.Racket.desktop</launchable>
   <description>
     <p>
       Racket is a multi-paradigm programming language with a rich set
@@ -36,6 +40,6 @@
       <image>https://user-images.githubusercontent.com/512906/209567825-dc6ef996-965f-4e9f-a25a-aa3773f7c98a.png</image>
     </screenshot>
   </screenshots>
-  <url type="homepage">http://www.racket-lang.org/</url>
+  <url type="homepage">https://www.racket-lang.org/</url>
   <content_rating type="oars-1.1"/>
-</application>
+</component>
