@@ -1,6 +1,6 @@
 app-id: org.racket_lang.Racket
 runtime: org.freedesktop.Platform
-runtime-version: '22.08'
+runtime-version: '23.08'
 sdk: org.freedesktop.Sdk
 command: drracket
 rename-desktop-file: drracket.desktop
@@ -16,7 +16,7 @@ modules:
     no-autogen: true
     subdir: src
     build-options:
-      # by default, racket binaries are already stripped, so no debug info has to be extracted. 
+      # by default, racket binaries are already stripped, so no debug info has to be extracted.
       no-debuginfo: true
     config-opts:
       - --enable-places
