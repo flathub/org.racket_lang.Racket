@@ -24,6 +24,12 @@ modules:
       - type: archive
         url : https://download.racket-lang.org/releases/8.12/installers/racket-8.12-src.tgz
         sha256: a2bdba9e2ae6e5d1a18364bcb68f7d04538e492d8e92c9fb61bd32d8be5bebd7
+        x-checker-data:
+          - is-main-source: true
+            type: html
+            url: https://download.racket-lang.org/
+            version-pattern: Version ([\\d\\.-]*)
+            url-template: https://download.racket-lang.org/releases/$major.$minor/installers/racket-$major.$minor-src.tgz
       - type: file
         path: org.racket_lang.Racket.appdata.xml
       - type: file
