@@ -22,14 +22,14 @@ modules:
       - --enable-places
     sources:
       - type: archive
-        url : https://download.racket-lang.org/releases/8.12/installers/racket-8.12-src.tgz
-        sha256: a2bdba9e2ae6e5d1a18364bcb68f7d04538e492d8e92c9fb61bd32d8be5bebd7
+        url: https://download.racket-lang.org/releases/8.14/installers/racket-8.14-src.tgz
+        sha256: aab8cc0db336ed2d382803c708ad55a95fc52a4436c912f616f7c49d4845ae2c
         x-checker-data:
-            is-main-source: true
-            type: html
-            url: https://download.racket-lang.org/
-            version-pattern: Version ([\d\.-]*)
-            url-template: https://download.racket-lang.org/releases/$major.$minor/installers/racket-$major.$minor-src.tgz
+          is-main-source: true
+          type: html
+          url: https://download.racket-lang.org/
+          version-pattern: Version ([\d\.-]*)
+          url-template: https://download.racket-lang.org/releases/$major.$minor/installers/racket-$major.$minor-src.tgz
       - type: file
         path: org.racket_lang.Racket.appdata.xml
       - type: file
