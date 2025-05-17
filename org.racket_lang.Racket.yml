@@ -22,8 +22,8 @@ modules:
       - --enable-places
     sources:
       - type: archive
-        url: https://download.racket-lang.org/releases/8.16/installers/racket-8.16-src.tgz
-        sha256: b233a968f4a561f7b005ce06f2c4c29428562f308c1a04d28e2e2286f6b945c3
+        url: https://download.racket-lang.org/releases/8.17/installers/racket-8.17-src.tgz
+        sha256: 44431395138f7b8c5e67d416ff063b8fb6ce056f4c4f0fda27b7b1ec58bfa33b
         x-checker-data:
           is-main-source: true
           type: html
